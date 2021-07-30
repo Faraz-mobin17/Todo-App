@@ -34,13 +34,13 @@ Users should be able to:
 
 ## Desktop
 
-![](./desktop-dark.jpg)
-![](./desktop-light.jpg)
+![](./desktop-dark.png)
+![](./desktop-light.png)
 
 ## Mobile
 
-![](./mobile-dark.jpg)
-![](./mobile-light.jpg)
+![](./mobile-dark.png)
+![](./mobile-light.png)
 
 ### Links
 
