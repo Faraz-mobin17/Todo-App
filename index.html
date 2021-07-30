@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Todo app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="top">
+        <div class="container">
+          <header>
+            <h1 class="top-h1">TODO</h1>
+            <div class="theme-block">
+              <input type="checkbox" name="theme" id="theme" />
+              <label for="theme"></label>
+            </div>
+          </header>
+        </div>
+      </section>
+      <div class="container position-relative move">
+        <form id="myForm" action="#" name="myForm">
+          <div class="input-container">
+            <div class="eclipse"></div>
+            <input
+              type="text"
+              name="addTodo"
+              id="addTodo"
+              placeholder="Create a new todo..."
+              class="input-control"
+            />
+          </div>
+        </form>
+      </div>
+      <div class="container position-relative moveUp">
+        <div class="todo-container">
+          <div class="last-item">
+            <div class="items-left">
+              <span class="count"></span>
+              <span>Items Left</span>
+            </div>
+            <div class="states">
+              <div class="state-1">All</div>
+              <div class="state-2">Active</div>
+              <div class="state-3">Completed</div>
+            </div>
+            <div class="clear-completed">Clear Completed</div>
+          </div>
+        </div>
+      </div>
+      <div class="container position-relative move-states">
+        <div class="states-md">
+          <div class="state-md-1">All</div>
+          <div class="state-md-2">Active</div>
+          <div class="state-md-3">Completed</div>
+        </div>
+      </div>
+    </main>
+    <!-- 
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+    <script src="./script.js"></script>
+  </body>
+</html>
