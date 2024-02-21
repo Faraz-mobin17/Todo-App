@@ -5,6 +5,7 @@ import {
   getAllTodos,
   updateTodoById,
 } from "../controllers/todo.controller.js";
+import { verifyJWT } from "../middleware/auth.middleware.js";
 const router = Router();
 
 router.route("/").get(getAllTodos);
